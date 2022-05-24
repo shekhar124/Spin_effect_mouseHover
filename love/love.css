@@ -1,0 +1,33 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b1522;
+
+}
+.loveee{
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    transform: rotate(-45deg);
+    
+} 
+.loveee:before{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    top: -60%;
+    border-radius: 50px;
+}
+.loveee::after{
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    right: -60%;
+    border-radius: 50px;
+}
